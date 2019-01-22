@@ -4,4 +4,7 @@ sud: sud.c
 	gcc -O sud.c -o sud
 
 test: sud
-	test.sh
+	./test.sh
+
+clean:
+	rm -f sud
