@@ -266,7 +266,7 @@ int main(int argc, char *argv[]) {
     solve(s, filled);
     // after = rdtsc();
     // printf ("found %lld solutions in %llu cycles\n", solns, after-before);
-    printf("found %lld slutions\n", solns);
+    printf("found %lld solutions\n", solns);
   } else {
     printf("original puzzle isn't valid!\n");
   }
